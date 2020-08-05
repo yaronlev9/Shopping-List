@@ -1,7 +1,7 @@
 {
   "name": "Shopping-List",
   "version": "1.0.0",
-  "description": "",
+  "description": "fullstack task shopping list",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaronlev9/Shopping-List.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaronlev9/Shopping-List/issues"
+  },
+  "homepage": "https://github.com/yaronlev9/Shopping-List#readme"
 }
