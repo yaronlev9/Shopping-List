@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="./shoppingLstClient.js"></script>
+</head>
+<body>
+    <div>
+        <button id="getBtn">get all products</button> 
+        <br>
+        <br>
+        <input id="Barcode" type="text" placeholder="Enter Barcode"/>
+        <button id="getByIdBtn">get product</button>
+        <button id="editBtn">edit product</button>
+        <button id="deleteBtn">delete product</button>
+        <button id="addBtn">add product to list</button>
+        <br>
+        <br>
+    </div>
+    <div id="product"></div>
+</body>
+</html>
